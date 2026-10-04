@@ -1,0 +1,81 @@
+import { MenuItem } from '../types';
+
+export const DEFAULT_MENUS: MenuItem[] = [
+  {
+    id: 'gukbap',
+    name: '국밥',
+    emoji: '🍲',
+    color: '#1E3A8A',
+    textColor: '#FEF08A',
+    description: '뜨끈~하고 든든한 국밥 한 뚝배기! 깍두기 올려서 든든하게 먹어요.',
+    weight: 1,
+    enabled: true,
+    isDefault: true,
+  },
+  {
+    id: 'tonkatsu',
+    name: '돈까스',
+    emoji: '🍱',
+    color: '#FACC15',
+    textColor: '#0F172A',
+    description: '바삭바삭 겉바속촉 황금빛 돈까스! 호불호 없이 모두가 만족하는 실패 없는 픽.',
+    weight: 1,
+    enabled: true,
+    isDefault: true,
+  },
+  {
+    id: 'malatang',
+    name: '마라탕',
+    emoji: '🍜',
+    color: '#0F172A',
+    textColor: '#FDE047',
+    description: '얼얼하고 매콤한 마라 수혈 타임! 옥수수면과 분모자 듬뿍 넣고 스트레스 해소!',
+    weight: 1,
+    enabled: true,
+    isDefault: true,
+  },
+  {
+    id: 'cafeteria',
+    name: '학식',
+    emoji: '🍚',
+    color: '#F59E0B',
+    textColor: '#0F172A',
+    description: '가성비 최강 & 이동 시간 3분 컷! 아낀 용돈으로 식후 카페라떼 마시러 가요.',
+    weight: 1,
+    enabled: true,
+    isDefault: true,
+  },
+  {
+    id: 'convenience',
+    name: '편의점',
+    emoji: '🍙',
+    color: '#1D4ED8',
+    textColor: '#FEF9C3',
+    description: '바쁠 땐 편의점 꿀조합! 삼각김밥 + 컵라면 + 탄산음료로 초스피드 점심 완료.',
+    weight: 1,
+    enabled: true,
+    isDefault: true,
+  },
+];
+
+export const PRESET_OPTIONS = [
+  { name: '떡볶이', emoji: '🥘' },
+  { name: '햄버거', emoji: '🍔' },
+  { name: '짜장면', emoji: '🥢' },
+  { name: '쌀국수', emoji: '🍜' },
+  { name: '파스타', emoji: '🍝' },
+  { name: '샐러드', emoji: '🥗' },
+  { name: '서브웨이', emoji: '🥪' },
+  { name: '치킨', emoji: '🍗' },
+];
+
+export const NAVY_YELLOW_PALETTE = [
+  { bg: '#1E3A8A', text: '#FEF08A', name: '딥 네이비' },
+  { bg: '#FACC15', text: '#0F172A', name: '선샤인 옐로우' },
+  { bg: '#0F172A', text: '#FDE047', name: '미드나잇 네이비' },
+  { bg: '#F59E0B', text: '#0F172A', name: '웜 앰버 골드' },
+  { bg: '#1D4ED8', text: '#FEF9C3', name: '로얄 블루 네이비' },
+  { bg: '#FDE047', text: '#1E293B', name: '레몬 옐로우' },
+  { bg: '#334155', text: '#FDE047', name: '슬레이트 네이비' },
+  { bg: '#EAB308', text: '#0F172A', name: '허니 옐로우' },
+];

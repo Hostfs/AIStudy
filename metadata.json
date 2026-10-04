@@ -1,0 +1,6 @@
+{
+  "name": "COMA 코마 동아리 점심 룰렛",
+  "description": "코마(COMA) 동아리를 위한 귀여운 남색 & 노란색 룰렛 웹앱",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

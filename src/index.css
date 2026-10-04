@@ -1,0 +1,36 @@
+@import "tailwindcss";
+
+@layer base {
+  body {
+    font-family: 'Noto Sans KR', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+    background-color: #FEFCE8;
+    color: #1E293B;
+  }
+
+  .font-jua {
+    font-family: 'Jua', 'Noto Sans KR', sans-serif;
+  }
+}
+
+/* COMA Navy & Yellow 3D button and card effects */
+.coma-btn-shadow {
+  box-shadow: 0 8px 20px -3px rgba(245, 158, 11, 0.45), 0 3px 0 0 #D97706;
+}
+
+.coma-btn-shadow:active {
+  transform: translateY(2px);
+  box-shadow: 0 4px 10px -2px rgba(245, 158, 11, 0.35), 0 1px 0 0 #D97706;
+}
+
+.coma-navy-btn-shadow {
+  box-shadow: 0 8px 20px -3px rgba(30, 58, 138, 0.35), 0 3px 0 0 #0F172A;
+}
+
+.coma-navy-btn-shadow:active {
+  transform: translateY(2px);
+  box-shadow: 0 4px 10px -2px rgba(30, 58, 138, 0.25), 0 1px 0 0 #0F172A;
+}
+
+.coma-card-glow {
+  box-shadow: 0 20px 45px -10px rgba(30, 58, 138, 0.08), 0 4px 20px rgba(250, 204, 21, 0.12);
+}
